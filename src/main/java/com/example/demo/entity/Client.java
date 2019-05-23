@@ -9,7 +9,6 @@ import java.util.Set;
  */
 @Entity
 public class Client {
-
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
